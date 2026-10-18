@@ -26,23 +26,21 @@ El repositorio se encuentra organizado de la siguiente manera:
 Trabajo-practico-R/
 │
 ├── README.md
-├── informe.pdf
+├── Trabajo_practico_LAB_INFORME.pdf
 │
 ├── analisis_datos/
-│   ├── script_principal.R
-│   ├── funciones.R
-│   └── data/
+│   ├── script_principal.R_ejercicio_1.R
+│   └── soja-serie-1941-2024-anual.csv 
 │
 ├── analisis_econometrico/
-│   ├── script_principal.R
+│   ├── Script_principal_ej2.R 
 │   ├── Funciones_ej2.R
 │   └── data/
 │       └── gapminder.csv
 │
 └── simulacion/
-    ├── script_principal.R
-    ├── simulacion_funciones.R
-    └── data/
+    ├── principal_cobb_ej3.R
+    ├── funciones_cobb_ej3.R 
 
 ## Cómo reproducir los resultados
 
