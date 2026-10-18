@@ -15,7 +15,7 @@ set.seed(345)
 library(tidyverse)
 
 # Cargar funciones auxiliares
-source("funciones_cobb.R")
+source("funciones_cobb_ej3.R")
 
 # ---------------------------------------------------------
 # Inciso 3: Simulación prueba
