@@ -17,6 +17,7 @@ library(tidyverse)
 # Cargar funciones auxiliares
 source("funciones_cobb_ej3.R")
 
+
 # ---------------------------------------------------------
 # Inciso 3: Simulación prueba
 # ---------------------------------------------------------
@@ -28,6 +29,8 @@ a1_prueba <- 0.3       # Preferencia x1
 a2_prueba <- 0.7       # Preferencia x2
 
 # Generar ingresos
+set.seed(345)
+
 ingresos <- simular_ingreso(N, k = K)
 
 # Calculemos demandas prueba
@@ -135,6 +138,9 @@ print(resumen_shock)
 # Inciso 7: heterogeneidad en preferencias
 # ---------------------------------------------------------
 # A1 sigue una distribución Beta(a = 2, b = 3)
+
+set.seed(345)
+
 A1_hetero <- rbeta(N, shape1 = 2, shape2 = 3)
 A2_hetero <- 1 - A1_hetero
 
@@ -202,6 +208,7 @@ resumen_hetero_shock <- comparacion_hetero_shock %>%
   )
 
 print(resumen_hetero_shock)
+
 
 
 
